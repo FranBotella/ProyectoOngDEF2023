@@ -42,7 +42,7 @@ changeColor.addEventListener('mouseout', function () {
 changeColor.addEventListener('click', function () {
     changeColor2.style.backgroundColor = "white";
     changeColor3.style.backgroundColor = "white";
-
+    changeColor33.style.backgroundColor = "white";
     changeColor.style.backgroundColor = "lightsalmon";
     console.log(document.getElementById("donar1"));
     document.getElementById("CDonada").innerHTML = document.getElementById("donar1").innerText.substring(0, 2);
@@ -75,7 +75,7 @@ changeColor2.addEventListener('mouseout', function () {
 changeColor2.addEventListener('click', function () {
     changeColor.style.backgroundColor = "white";
     changeColor3.style.backgroundColor = "white";
- 
+     changeColor33.style.backgroundColor = "white";
     changeColor2.style.backgroundColor = "lightsalmon";
     document.getElementById("CDonada").innerHTML = document.getElementById("donar2").innerText.substring(0, 2);
 });
@@ -107,7 +107,7 @@ changeColor3.addEventListener('mouseout', function () {
 changeColor3.addEventListener('click', function () {
     changeColor2.style.backgroundColor = "white";
     changeColor.style.backgroundColor = "white";
- 
+     changeColor33.style.backgroundColor = "white";
     changeColor3.style.backgroundColor = "lightsalmon";
     document.getElementById("CDonada").innerHTML = document.getElementById("donar3").innerText.substring(0, 2);
 });
